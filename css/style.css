@@ -44,8 +44,8 @@
     font-family: var(--RalewayFamily);
   }
   .container {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -75,7 +75,7 @@
   }
 /* Styling The Header */
   header {
-    padding: 70px 0 100px;
+    padding: 67px 0 100px;
   }
   header > .container {
     display: flex;
@@ -83,7 +83,7 @@
     justify-content: space-between;
   }
   .header-logo {
-    width: 90%;
+    width: 95%;
   }
   .header-nav > ul{
     display: flex;
@@ -112,7 +112,7 @@
   }
 /* Styling The Landing */
   .landing {
-    padding-bottom: 250px;
+    padding-bottom: 235px;
   }
   .landing-img {
     width: 49%;
@@ -128,7 +128,7 @@
   }
   .landing-title {
     font-size: 2.4rem;
-    line-height: 1.6;
+    line-height: 1.5;
   }
   @media (min-width: 992px) and (max-width: 1199px) {
     .landing-title {
@@ -237,7 +237,7 @@
   }
 /* Styling The Features */
   .fea-img {
-    width: 50%;
+    width: 45%;
     height: 100%;
   }
   .features {
@@ -295,7 +295,7 @@
     color: var(--ModerateCyan);
     border-bottom: 1px solid var(--ModerateCyan);
     padding-bottom: 5px;
-    font-size: 14px;
+    font-size: 16px;
     width: fit-content;
     transition: 0.3s;
   }
