@@ -68,11 +68,6 @@
     }
   }
   /*  */
-  @media (min-width: 1400px) {
-    .container{
-      width: 1340px;
-    }
-  }
 /* Styling The Header */
   header {
     padding: 66px 0 90px;
@@ -521,7 +516,7 @@
   }
   footer {
     background-color: var(--VeryDarkBlue);
-    padding: 120px 0 80px;
+    padding: 100px 0 80px;
   }
   footer > .container:last-of-type {
     display: flex;
