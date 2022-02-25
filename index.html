@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- / -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+  <body>
+    <main>
+      <!-- Header -->
+      <header>
+        <div class="container">
+          <a href="#">
+            <img src="images/logo.svg" alt="logo" class="header-logo" />
+          </a>
+          <nav class="header-nav">
+            <ul>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Sign In</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- Landing -->
+      <div class="landing">
+        <div class="container">
+          <div class="landing-content">
+            <h1 class="landing-title">All your files in one secure location, accessible anywhere.</h1>
+            <p class="landing-des">
+              Fylo stores your most important files in one secure location. 
+              Access them wherever you need, share and collaborate with friends, 
+              family, and co-workers.
+            </p>
+            <form action="" class="landing-form">
+              <input type="email" placeholder="Enter your email..." required
+              oninvalid="this.setCustomValidity('Please check your email')"
+              oninput="setCustomValidity('')" class="email">
+              <input type="submit" value="Get Started" class="sub">
+            </form>
+          </div>
+            <img src="images/illustration-1.svg" alt="illustration-1" class="landing-img"/>
+        </div>
+      </div>
+      <!-- Features -->
+      <div class="features" id="features">
+        <div class="container">
+          <div class="fea-content">
+            <h2 class="fea-title">Stay productive, wherever you are</h2>
+            <p class="fea-des">
+              Never let location be an issue when accessing your files. Fylo has you 
+              covered for all of your file storage needs.
+            </p>
+            <p class="fea-des">
+              Securely share files and folders with friends, family and colleagues for 
+              live collaboration. No email attachments required!
+            </p>
+            <a href="#" class="fea-link">
+              See how Fylo works 
+              <i class="fas fa-arrow-circle-right arrow"></i>
+            </a>
+            <div class="fea-testimonial">
+              <img src="images/icon-quotes.svg" alt="icon-quotes" class="quotes">
+              <p class="testimonial-des">
+                Fylo has improved our team productivity by an order of magnitude. Since 
+                making the switch our team has become a well-oiled collaboration machine.
+              </p>
+              <div class="ceo">
+                <img src="images/avatar-testimonial.jpg" alt="avatar-testimonial" class="ceo-img">
+                <div class="ceo-info">
+                  <span class="name">Kyle Burton</span>
+                  <span class="position">Founder & CEO, Huddle</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="images/illustration-2.svg" alt="illustration-2" class="fea-img">
+        </div>
+      </div>
+      <!-- Access Section -->
+      <div class="access">
+        <div class="container">
+          <div class="access-text">
+            <h2 class="access-title">Get early access today</h2>
+            <p class="access-des">
+              It only takes a minute to sign up and our free starter tier is extremely generous. 
+              If you have any questions, our support team would be happy to help you.
+            </p>
+          </div>
+          <form action="" class="access-form">
+            <input type="email" placeholder="email@example.com" required
+            oninvalid="this.setCustomValidity('Please check your email')"
+            oninput="setCustomValidity('')">
+            <input type="submit" value="Get Started For Free">
+          </form>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+        <img src="images/footer-logo.svg" alt="footer-logo" class="footer-img">
+      </div>
+        <div class="container">
+            <ul class="footer-info">
+              <li>
+                <img src="images/icon-phone.svg" alt="icon-phone">
+                <span>Phone: +1-543-123-4567</span>
+              </li>
+              <li>
+                <img src="images/icon-email.svg" alt="icon-email">
+                <a href="#mailtoexample@fylo.com">example@fylo.com</a>
+              </li>
+            </ul>
+          <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Jobs</a>
+            <a href="#">Press</a>
+            <a href="#">Blog</a>
+          </div>
+          <div class="footer-links">
+            <a href="#">Contact Us</a>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+          </div>
+          <div class="footer-social">
+            <a href="#" title="Facebook" style="--color: #1877F2;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Twitter" style="--color: #1DA1F2;"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" title="Instagram" style="--color: #E4405F;"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
