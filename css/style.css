@@ -44,8 +44,8 @@
     font-family: var(--RalewayFamily);
   }
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -64,17 +64,12 @@
   /* Lager Screen */
   @media (min-width: 1200px) {
     .container{
-      width: 1190px;
-    }
-  }
-  @media (min-width: 1300px) {
-    .container{
-      width: 1290px;
+      width: 1175px;
     }
   }
   @media (min-width: 1400px) {
     .container{
-      width: 1390px;
+      width: 1375px;
     }
   }
 /* Styling The Header */
@@ -119,7 +114,7 @@
     padding-bottom: 235px;
   }
   .landing-img {
-    width: 49%;
+    width: 48%;
   }
   .landing > .container {
     display: flex;
@@ -155,7 +150,7 @@
   }
 /* ----- END ----- */
   .landing-form {
-    width: 520px;
+    width: 500px;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -177,7 +172,7 @@
     opacity: 0;
   }
   .landing-form > .sub {
-    width: 190px;
+    width: 185px;
   }
 /* ---- Making The Landing Responsive ---- */
   @media (max-width: 991px) {
