@@ -69,7 +69,7 @@
   }
   @media (min-width: 1400px) {
     .container{
-      width: 1375px;
+      width: 1350px;
     }
   }
 /* Styling The Header */
@@ -283,7 +283,7 @@
   }
   .fea-title {
     font-size: 2.5rem;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
   .fea-des {
     max-width: 525px;
@@ -415,7 +415,7 @@
 /* Styling The Access Section */
   .access {
     background-color: var(--DesaturatedBlue);
-    padding-top: 100px;
+    padding-top: 110px;
     padding-bottom: 80px;
     width: 100%;
   }
