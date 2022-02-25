@@ -44,8 +44,8 @@
     font-family: var(--RalewayFamily);
   }
   .container {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -67,10 +67,10 @@
       width: 1175px;
     }
   }
-    /* Lager Screen + 1400px */
+  /*  */
   @media (min-width: 1400px) {
     .container{
-      width: 1350px;
+      width: 1340px;
     }
   }
 /* Styling The Header */
@@ -112,7 +112,7 @@
   }
 /* Styling The Landing */
   .landing {
-    padding-bottom: 230px;
+    padding-bottom: 235px;
   }
   .landing-img {
     width: 49%;
@@ -144,21 +144,21 @@
     border: none;
     background-color: var(--BrightBlue);
     color: var(--LightGrayishBlue);
-    padding: 13px;
+    padding: 14px;
     border-radius: 3px;
     font-weight: 700;
     cursor: pointer;
   }
 /* ----- END ----- */
   .landing-form {
-    width: 500px;
+    width: 520px;
     display: flex;
     align-items: center;
     gap: 15px;
   }
   .landing-form > .email {
     padding: 14px 20px 12px;
-    width: 300px;
+    width: 315px;
     border: 1px solid var(--VeryDarkBlue);
     border-radius: 2px;
   }
@@ -173,7 +173,7 @@
     opacity: 0;
   }
   .landing-form > .sub {
-    width: 180px;
+    width: 190px;
   }
 /* ---- Making The Landing Responsive ---- */
   @media (max-width: 991px) {
@@ -237,7 +237,7 @@
   }
 /* Styling The Features */
   .fea-img {
-    width: 45%;
+    width: 40%;
     height: 100%;
   }
   .features {
@@ -283,7 +283,7 @@
     justify-content: space-between;
   }
   .fea-title {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     margin-bottom: 30px;
   }
   .fea-des {
@@ -333,9 +333,8 @@
     transform: scale(1.075);
   }
   .quotes {
-    margin-bottom: 10px;
-    height: 15px;
-    width: 15px;
+    font-weight: 900;
+    margin-bottom: 5px;
   }
   .testimonial-des {
     line-height: 1.5;
@@ -349,8 +348,8 @@
     gap: 10px;
   }
   .ceo-img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
   }
   .name {
@@ -518,11 +517,11 @@
   }
 /* Styling The Footer */
   footer * {
-    color: var(--LightGray);
+    color: #f7f7f7;
   }
   footer {
     background-color: var(--VeryDarkBlue);
-    padding: 100px 0 80px;
+    padding: 120px 0 80px;
   }
   footer > .container:last-of-type {
     display: flex;
