@@ -241,7 +241,7 @@
   }
   .features {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 105px;
     background-color: #F8F8FE;
     position: relative;
   }
@@ -443,7 +443,7 @@
   }
   @media (min-width: 1400px) {
     .access-form {
-      padding-right: 100px;
+      padding-right: 75px;
     }
   }
   .access-form input[type="email"] {
